@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #373434;
+    background: url("https://media.istockphoto.com/id/1269997177/vector/black-background-black-metal-texture-steel-background-dark-carbon-fiber-texture.jpg?s=612x612&w=0&k=20&c=UMgt2vYYQgeNYcGBkYlEFwxe-P5KPVJZeuE077G4t3g=")
+  }
+  
+
+  header {
+    /*background-color: #373434;*/
+    height: 100px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-block-start: 100px;
+    
+  }
+  
+  .block {
+    
+    height: 300px;
+    width: 400px;
+    background-color: rgb(87, 98, 98);
+    margin: 0 2px;
+    border-radius: 15px;
+    margin-block: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    margin-bottom: 3px;
+    
+    
+  }
+  
+
+  .block-container {
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  @media print {
+    body {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+   }
+
+  @media screen and (min-width: 992px){
+    .block{
+        width: 32.9%;
+    }
+    .navbar {
+      display: flex;
+      flex-direction: row;  
+    }
+  }
+
+  @media screen and (max-width:992px) and (min-width:600px){
+    .block{
+        width: 49%;
+    }
+  }
+
+  @media screen and (max-width:600px){
+    .block {
+        width: 100%;
+    }
+
+  }
+
+  .right {
+    position: absolute;
+    right: 0px;
+    background-color: rgba(60, 51, 51, 0.362);
+    color: black;
+}
+
+.navbar {
+    background: #373434;
+    justify-content: center;
+    gap: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.551);
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    
+
+    
+}
+
+.navbar a{
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width:100px;
+  display:block;
+  padding: 25px 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold; 
+  text-align: center;
+  
+
+ 
+  
+  
+
+  
+}
+.navbar a:hover{
+  background: rgb(218, 152, 31);
+  transform: scale(1.8);  
+  transform:
+  
+
+}
+
+.left {
+  position: absolute;
+  left: 0px;
+  background-color: #373434;
+  color: black;
+
+
+
+}
+
+#alex {
+  
+  color: rgb(255, 255, 255);
+  align-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.bilbild, #Alex2 {
+  margin: auto;
+  display: block;  
+  width: 75%;
+  color: aliceblue;
+  text-decoration:none;
+  font-size: 20px;
+}
+
+
+
+.block-container a:hover{
+  background: rgb(218, 152, 31);
+  border-color:rgb(218, 152, 31); 
+  border-radius: 15px;
+  transform: scale(1.1);  
+
+}
+
+#anc {
+  color: rgb(255, 255, 255);
+  align-items: center;
+  text-align:center;
+}
+
+#bca {
+  color: rgb(255, 255, 255);
+  align-items: center;
+  text-align:center;  
+}
+
+
+.bcc {
+  background-color: rgb(85, 105, 105);
+  align-items: center;
+  text-align:center;  
+}
+
+.ababab {
+  position: relative;
+  bottom: 0px;
+  text-align: center;
+  width: 800px;
+  max height: 350px;
+  
+  
+}
+
